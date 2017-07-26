@@ -1,0 +1,50 @@
+/*--------------------------------------------------*/
+/*UNIVERSAL TAGS*/
+html{
+ font-size: 18px;
+ line-height:1.4;
+}
+body{
+
+}
+/*--------------------------------------------------*/
+/*HEADER TAGS*/
+header{
+  display: inline-flex;
+  align-items: center;
+  height: 30rem;
+  width:100%;
+  background-repeat: no-repeat;
+
+  object-fit:none;
+  margin: 0;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png")
+}
+
+.whitelogo img{
+  height:1.5rem;
+  width:auto;
+}
+a, a:visited {
+  color: white;
+}
+/*--------------------------------------------------*/
+/*TOP TAGS*/
+top{
+
+}
+/*--------------------------------------------------*/
+/*MIDDLE TAGS*/
+middle{
+
+}
+/*--------------------------------------------------*/
+/*BOTTOM TAGS*/
+bottom{
+
+}
+/*--------------------------------------------------*/
+/*FOOTER*/
+footer{
+
+}
