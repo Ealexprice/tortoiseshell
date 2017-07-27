@@ -10,41 +10,92 @@ body{
 /*--------------------------------------------------*/
 /*HEADER TAGS*/
 header{
-  display: inline-flex;
-  align-items: center;
+  font-size:1rem;
+  font-family:Helvetica;
+
+  display: inline-block;
+border: 4px solid yellow;
   height: 30rem;
   width:100%;
   background-repeat: no-repeat;
-
+  align-items: center;
   object-fit:none;
   margin: 0;
+  background-size: cover;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png")
 }
+.topbar{
+ width:960px;
+ height:3rem;
+ margin-top:1rem;
+  display: inline-flex;
+ flex-direction:row;
+  background-color: cadetblue;
+  align-items: center;
+  border: 2px solid purple;
 
-.whitelogo img{
+}
+
+}
+.topbar img{
   height:1.5rem;
   width:auto;
+padding-left: 2rem;
+padding-right:1rem;
+border: 2px solid orange;
 }
 a, a:visited {
   color: white;
 }
+nav span{
+  padding-right:2rem;
+  border: 2px solid pink;
+}
 /*--------------------------------------------------*/
 /*TOP TAGS*/
-top{
 
-}
-/*--------------------------------------------------*/
-/*MIDDLE TAGS*/
-middle{
 
-}
 /*--------------------------------------------------*/
 /*BOTTOM TAGS*/
 bottom{
 
 }
+
+.content{
+  display:block;
+
+  margin-top:3rem;
+  border:2px solid red;
+}
+.image{
+  display:block;
+  align-items: center;
+  border: 2px solid green;
+}
+p{
+  width:35%;
+}
+.options{
+  display: inline-flex;
+  border: 2px solid blue;
+  align-items: flex-start;
+}
+.line2{
+  display:inline-flex;
+}
+
+.line2 span{
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  width: 10rem;
+  padding-top:0.5rem;
+  padding-bottom:0.58rem;
+}
 /*--------------------------------------------------*/
 /*FOOTER*/
-footer{
+.line2 .bottomlogo{
+display:block;
 
 }
