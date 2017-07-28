@@ -10,11 +10,12 @@ body{
 /*--------------------------------------------------*/
 /*HEADER TAGS*/
 header{
+
   font-size:1rem;
   font-family:Helvetica;
   text-align:center;
   display: inline-block;
-  border: 4px solid yellow;
+
   height: 30rem;
   width:100%;
   background-repeat: no-repeat;
@@ -32,6 +33,7 @@ header{
  flex-direction:row;
   background-color: cadetblue;
   align-items: center;
+
 }
 
 h3{
@@ -41,8 +43,9 @@ h3{
 font-weight: lighter;
 }
 h2{
-  text-align:right;
-  border: 2px solid orange;
+  display:inline-flex;
+
+
   font-family:helvetica;
   font-size: 2rem;
   font-weight: bold;
@@ -53,12 +56,12 @@ h2{
   padding-bottom:1.5rem;
   background-color: white;
   margin-top: 10rem;
-  margin-bottom: 10rem;
- flex-wrap:nowrap;
-  width:35%;
+
+margin-left:22rem;
+
 }
-header h2{
-  text-align: right;
+.topbar h2{
+
 }
 /*img{
   height:1.5rem;
@@ -66,9 +69,14 @@ header h2{
   padding-left: 2rem;
   padding-right:1rem;
   border: 2px solid skyblue;
-}*/
+}
 a, a:visited {
   color: white;
+}*/
+a:hover, a:visited, a:link, a:active /*-----TO GET RID OF AN UNWANTED UNDERLINE  IN A LINK IN ALL FORMS*/
+{
+    text-decoration: none;
+    color:white;
 }
 nav span{
   padding-right:2rem;
@@ -104,15 +112,16 @@ bottom{
 
 .content{
   display:block;
-text-align: center;
+ text-align: center;
+
   margin-top:3rem;
   border:2px solid red;
 }
 .content img{
-  height: 8rem;
+
   width:5rem;
-  object-fit: scale-down;
-  align-items: center;
+
+
 }
 /*.image{
   display:block;
@@ -128,12 +137,15 @@ text-align: center;
   border:2px solid yellow;
 }
 
-.exam/*the paper*/{
+.exam img/*the paper*/{
   width:3.5rem;
   margin-left:3rem;
   margin-right:3rem;
-
   border: 2px solid pink;
+  align-items:flex-start;
+}
+.options p{
+  margin:0;
 }
 .fitting/*the ruler*/{
   width:5rem;
@@ -154,13 +166,12 @@ text-align: center;
   border: 2px solid blue;
   object-fit: contain;
 align-items: flex-start;
-  margin-left:6rem;
-  margin-right: 6rem;
+
 }
 .line2{
   display:inline-flex;
   border: 2px solid green;
-
+  margin-top:3rem;
 }
 
 .line2 span{
@@ -172,9 +183,15 @@ align-items: flex-start;
   width: 10rem;
   padding-top:0.5rem;
   padding-bottom:0.58rem;
-
 }
-
+.exam p{
+ width:5rem;
+ text-align: center;
+}
+.options img{
+  vertical-align:top;
+  margin-bottom:3rem;
+}
 /*--------------------------------------------------*/
 /*FOOTER*/
 .bottomlogo{
