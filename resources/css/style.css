@@ -31,7 +31,7 @@ header{
 .topbar{
  width:960px;
  height:3rem;
- margin-top:1rem;
+ /*margin-top:1rem;*/
 display: inline-flex;
  flex-direction:row;
 background-color: cadetblue;
@@ -163,9 +163,7 @@ max-width: 10rem;
   flex-shrink: 1;
 }*/
 .options p{
-  margin-top:auto;
-  width:5rem;
-  height:auto;
+display:block;
 }
 /*.fitting/*the ruler*//*{
   width:5rem;
@@ -182,7 +180,7 @@ max-width: 10rem;
   align-items: flex-start;
 }*/
 
-/*.options{
+.options p{
   display:flex;
   justify-content: center;
   /*object-fit: contain;
@@ -193,7 +191,8 @@ max-width: 10rem;
   align-items: flex-start;
   object-fit:cover;*/
 }
-.service img {
+.service  {
+  display:inline-block;
   width: 5rem;
   margin-bottom: 1rem;
 }
