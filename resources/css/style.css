@@ -133,8 +133,8 @@ nav{
   margin-right: 6rem;
   border: 2px solid green;
 }*/
-.line2 p{
-  width:35%;
+/*.line2 {
+
   height: auto;
 margin-left: 2.5%;
 margin-right:2.5%;
@@ -142,8 +142,8 @@ margin-right:2.5%;
   margin-top:1rem;
   text-align: left;
   margin-right:0;
-
-}
+max-width: 10rem;
+}*/
 
 
 .exam/*the paper*/{
@@ -192,19 +192,30 @@ margin-right:2.5%;
   margin-top:1rem;
   padding:0;
   width:960px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 .line2 span{
-  display: block;
+
   font-family: Helvetica;
   font-weight: bold;
-  padding-left: 1.25rem;
-  font-size: 1rem;
+
   background-color: cadetblue;
-  width: 10rem;
-  height:auto;
-  padding-top:0.5rem;
-  padding-bottom:0.58rem;
+
+
+  max-width: 10rem;
+}
+span{
+  padding: 0.5rem 1.25rem;
+}
+.phil{
+  width:35%;
+    margin-right: 5%;
+    text-align: right;
+    margin-bottom: 4rem;
+
 }
 /*.exam p{
  width:5rem;
