@@ -146,7 +146,7 @@ max-width: 10rem;
 }*/
 
 
-.exam/*the paper*/{
+/*.exam/*the paper*//*{
   display:block;
   margin:0;
   width:5rem;
@@ -157,34 +157,48 @@ max-width: 10rem;
   margin-right:3rem;
   align-self:flex-start;
   flex-shrink: 1;
-}
+}*/
 .options p{
   margin-top:auto;
   width:5rem;
   height:auto;
 }
-.fitting/*the ruler*/{
+/*.fitting/*the ruler*//*{
   width:5rem;
   height:8rem;
   margin-left:3rem;
   margin-right:3rem;
 
 }
-.delivery/*truck*/{
+.delivery/*truck*//*{
   width:5rem;
   height:8rem;
   margin-left:3rem;
   margin-right:3rem;
   align-items: flex-start;
-
-}
+}*/
 
 .options{
-  display: inline-flex;
+  display:flex;
+  justify-content: space-around;
   object-fit: contain;
-
+  width:5rem;
+  height:8rem;
+  margin-left:3rem;
+  margin-right:3rem;
+  align-items: flex-start;
+  object-fit:cover;
 }
-
+.exam, .deliver, .fitting {
+display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+  text-align: center;
+}
 .line2{
   display:flex;
   margin-top:3rem;
@@ -198,24 +212,25 @@ max-width: 10rem;
 }
 
 .line2 span{
-
   font-family: Helvetica;
   font-weight: bold;
-
   background-color: cadetblue;
-
-
   max-width: 10rem;
 }
+
 span{
   padding: 0.5rem 1.25rem;
 }
+
 .phil{
   width:35%;
     margin-right: 5%;
-    text-align: right;
+    text-align: left;
     margin-bottom: 4rem;
-
+}
+.appt{
+  width:35%;
+  text-align:left;
 }
 /*.exam p{
  width:5rem;
