@@ -4,6 +4,10 @@ html{
  font-size: 18px;
  line-height:1.4;
 }
+
+* {
+   border:2px solid blue;
+}
 body{
 
 }
@@ -178,16 +182,20 @@ max-width: 10rem;
   align-items: flex-start;
 }*/
 
-.options{
+/*.options{
   display:flex;
-  justify-content: space-around;
-  object-fit: contain;
+  justify-content: center;
+  /*object-fit: contain;
   width:5rem;
   height:8rem;
   margin-left:3rem;
   margin-right:3rem;
   align-items: flex-start;
-  object-fit:cover;
+  object-fit:cover;*/
+}
+.service img {
+  width: 5rem;
+  margin-bottom: 1rem;
 }
 .exam, .deliver, .fitting {
 display: flex;
@@ -242,7 +250,7 @@ span{
   width:35%;*/
 
 
-.content .options{
+/*.content .options{
   vertical-align:top;
   margin-bottom:3rem;
   height:8rem;
