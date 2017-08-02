@@ -15,7 +15,6 @@ header{
   font-family:Helvetica;
   text-align:center;
   display: inline-block;
-
   height: 30rem;
   width:100%;
   background-repeat: no-repeat;
@@ -29,13 +28,19 @@ header{
  width:960px;
  height:3rem;
  margin-top:1rem;
-  display: inline-flex;
+display: inline-flex;
  flex-direction:row;
-  background-color: cadetblue;
-  align-items: center;
+background-color: cadetblue;
+align-items: center;
 
 }
-
+/*@media only screen and (max-width: 960px) {
+  .topbar {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width:100%;
+  }*/
 h3{
   font-size: 1rem;
   font-family: helvetica;
@@ -44,8 +49,6 @@ font-weight: lighter;
 }
 h2{
   display:inline-flex;
-
-
   font-family:helvetica;
   font-size: 2rem;
   font-weight: bold;
@@ -80,9 +83,8 @@ a:hover, a:visited, a:link, a:active /*-----TO GET RID OF AN UNWANTED UNDERLINE 
 }
 nav span{
   padding-right:2rem;
-
   align-items: flex-end;
-  justify-content: flex-end
+  justify-content: flex-end;
 }
 .topbar nav{
 flex-grow: 1;
@@ -106,22 +108,23 @@ nav{
 
 /*--------------------------------------------------*/
 /*BOTTOM TAGS*/
-bottom{
 
-}
 
 .content{
   display:block;
- text-align: center;
-
+  text-align: center;
   margin-top:3rem;
-  border:2px solid red;
+
+}
+.content .line2{
+  display:flex;
+
+
+
+
 }
 .content img{
-
   width:5rem;
-
-
 }
 /*.image{
   display:block;
@@ -132,65 +135,92 @@ bottom{
 }*/
 .line2 p{
   width:35%;
+  height: auto;
+margin-left: 2.5%;
+margin-right:2.5%;
+  align-self: center;
   margin-top:1rem;
   text-align: left;
-  border:2px solid yellow;
+  margin-right:0;
+
 }
 
-.exam img/*the paper*/{
-  width:3.5rem;
+
+.exam/*the paper*/{
+  display:block;
+  margin:0;
+  width:5rem;
+  height:8rem;
+  overflow:hidden;
+  object-fit:cover;
   margin-left:3rem;
   margin-right:3rem;
-  border: 2px solid pink;
-  align-items:flex-start;
+  align-self:flex-start;
+  flex-shrink: 1;
 }
 .options p{
-  margin:0;
+  margin-top:auto;
+  width:5rem;
+  height:auto;
 }
 .fitting/*the ruler*/{
   width:5rem;
+  height:8rem;
   margin-left:3rem;
   margin-right:3rem;
-  border: 2px solid brown;
+
 }
 .delivery/*truck*/{
   width:5rem;
+  height:8rem;
   margin-left:3rem;
   margin-right:3rem;
   align-items: flex-start;
-  border: 2px solid purple;
+
 }
 
 .options{
   display: inline-flex;
-  border: 2px solid blue;
   object-fit: contain;
-align-items: flex-start;
 
 }
+
 .line2{
-  display:inline-flex;
-  border: 2px solid green;
+  display:flex;
   margin-top:3rem;
+  margin-bottom:5rem;
+  margin-top:1rem;
+  padding:0;
+  width:960px;
 }
 
 .line2 span{
   display: block;
   font-family: Helvetica;
   font-weight: bold;
+  padding-left: 1.25rem;
   font-size: 1rem;
   background-color: cadetblue;
   width: 10rem;
+  height:auto;
   padding-top:0.5rem;
   padding-bottom:0.58rem;
 }
-.exam p{
+/*.exam p{
  width:5rem;
- text-align: center;
-}
-.options img{
+ align-self: center;
+}*/
+
+/*.line2 .phil p{
+  margin: 0;
+  width:35%;*/
+
+
+.content .options{
   vertical-align:top;
   margin-bottom:3rem;
+  height:8rem;
+
 }
 /*--------------------------------------------------*/
 /*FOOTER*/
@@ -200,6 +230,7 @@ align-items: flex-start;
   background-color:azure;
   display:inline-flex;
   align-items: center;
+
 }
 .bottomlogo img{
   height: 1.5rem;
