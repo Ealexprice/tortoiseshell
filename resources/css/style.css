@@ -4,10 +4,6 @@ html{
  font-size: 18px;
  line-height:1.4;
 }
-
-* {
-   border:2px solid blue;
-}
 body{
 
 }
@@ -31,7 +27,7 @@ header{
 .topbar{
  width:960px;
  height:3rem;
- /*margin-top:1rem;*/
+ margin-top:1rem;
 display: inline-flex;
  flex-direction:row;
 background-color: cadetblue;
@@ -150,62 +146,49 @@ max-width: 10rem;
 }*/
 
 
-/*.exam/*the paper*//*{
+.exam/*the paper*/{
   display:block;
   margin:0;
   width:5rem;
   height:8rem;
-  overflow:hidden;
-  object-fit:cover;
+
+  object-fit:scale-down;
   margin-left:3rem;
   margin-right:3rem;
   align-self:flex-start;
   flex-shrink: 1;
-}*/
+}
 .options p{
-display:block;
-}
-/*.fitting/*the ruler*//*{
-  width:5rem;
-  height:8rem;
-  margin-left:3rem;
-  margin-right:3rem;
-
-}
-.delivery/*truck*//*{
-  width:5rem;
-  height:8rem;
-  margin-left:3rem;
-  margin-right:3rem;
-  align-items: flex-start;
-}*/
-
-.options p{
-  display:flex;
-  justify-content: center;
-  /*object-fit: contain;
-  width:5rem;
-  height:8rem;
-  margin-left:3rem;
-  margin-right:3rem;
-  align-items: flex-start;
-  object-fit:cover;*/
-}
-.service  {
-  display:inline-block;
-  width: 5rem;
-  margin-bottom: 1rem;
-}
-.exam, .deliver, .fitting {
-display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content:flex-start;
   align-items: center;
-  width: 5rem;
+  display:inline-flex;
+  margin-top:auto;
+  width:5rem;
   height: 8rem;
-  margin: 3rem;
-  text-align: center;
+
 }
+.fitting/*the ruler*/{
+  width:5rem;
+  height:8rem;
+  margin-left:3rem;
+  margin-right:3rem;
+
+}
+.delivery/*truck*/{
+  width:5rem;
+  height:8rem;
+  margin-left:3rem;
+  margin-right:3rem;
+  align-items: flex-start;
+
+}
+
+.options{
+  display: inline-flex;
+  object-fit: contain;
+
+}
+
 .line2{
   display:flex;
   margin-top:3rem;
@@ -224,11 +207,9 @@ display: flex;
   background-color: cadetblue;
   max-width: 10rem;
 }
-
 span{
   padding: 0.5rem 1.25rem;
 }
-
 .phil{
   width:35%;
     margin-right: 5%;
@@ -237,7 +218,9 @@ span{
 }
 .appt{
   width:35%;
-  text-align:left;
+    margin-right: 5%;
+    text-align: left;
+    margin-bottom: 4rem;
 }
 /*.exam p{
  width:5rem;
@@ -249,7 +232,7 @@ span{
   width:35%;*/
 
 
-/*.content .options{
+.content .options{
   vertical-align:top;
   margin-bottom:3rem;
   height:8rem;
